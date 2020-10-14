@@ -9,8 +9,11 @@
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() . '/public/css/reset.css'?>">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() . '/public/bootstrap/css/bootstrap.min.css'?>">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() . '/public/css/header.css'?>">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() . '/public/css/footer.css'?>">
+
     <script src="<?php echo get_template_directory_uri() . '/public/js/jquery.min.js'?>"></script>
     <script src="<?php echo get_template_directory_uri() . '/public/bootstrap/js/bootstrap.min.js'?>"></script>
+
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 
 </head>

@@ -46,10 +46,10 @@
                     </div>
                 </footer>
                 <section style="text-align:center; margin:10px auto;">
-                    <p>Desenvolvido por <a href="https://github.com/IgorTeixas" target="_blank">Igor Santana</a> e <a href="https://github.com/Felipercb" target="_blank">Felipe Borges</a></p>
+                    <p>Desenvolvido por <a href="https://github.com/IgorTeixas" target="_blank">Igor Santana</a> e <a
+                            href="https://github.com/Felipercb" target="_blank">Felipe Borges</a></p>
                 </section>
 
-            </div>
         </footer>
 
         </body>

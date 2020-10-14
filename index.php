@@ -6,8 +6,7 @@ $post_destaques = [
     'post_type' => 'post',
     'posts_per_page' => 3,
     'category_name' => 'carrossel'
-];
-?>
+];?>
 <section class="container">
     <?php if (have_posts()):?>
     <?php $query = new WP_Query($post_destaques); ?>
@@ -53,3 +52,6 @@ $post_destaques = [
     <?php endif; ?>
 </section>
 
+<?php
+
+get_footer();
