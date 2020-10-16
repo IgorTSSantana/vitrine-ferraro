@@ -1,0 +1,39 @@
+h1{
+    font-size: 1.7em;
+    padding: 20px 20px 10px 20px;
+    text-align: center;
+}
+p{
+    margin: 0 0px;
+    text-align: left;
+}
+
+p:before {
+    content: "\00a0\00a0\00a0\00a0\00a0"
+}
+
+
+#duas-colunas {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#texto1 {
+    width: 480px;
+    float: left;
+}
+
+#texto2 {
+    width: 480px;
+	float: right;
+}
+
+#duas-colunas a {
+    font-style: italic;
+    color: red;
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
+}

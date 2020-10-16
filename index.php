@@ -51,6 +51,51 @@ $post_destaques = [
     </div>
     <?php endif; ?>
 </section>
+<div id="duas-colunas">
+    <div id="texto1">
+        <h1>Um pouco da História</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Illum amet molestiae consequuntur incidunt fugit sit iusto quaerat
+            aperiam eligendi soluta beatae dolores at suscipit quis, minus voluptas
+            voluptatibus obcaecati veritatis!Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Illum amet molestiae consequuntur incidunt fugit sit iusto quaerat
+            aperiam eligendi soluta beatae dolores at suscipit quis, minus voluptas
+        </p> <br>
+        <p>
+            Voluptatibus obcaecati veritatis!Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Illum amet molestiae consequuntur incidunt fugit sit iusto quaerat
+            aperiam eligendi soluta beatae dolores at suscipit quis, minus voluptas
+            voluptatibus obcaecati veritatis!Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Illum amet molestiae consequuntur incidunt fugit sit iusto quaerat
+            aperiam eligendi soluta beatae dolores at suscipit quis, minus voluptas
+            voluptatibus obcaecati veritatis!
+        </p> <a href="">leia mais...</a>
+    </div>
+
+    <div id="texto2">
+        <h1>Um pouco da História</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Illum amet molestiae consequuntur incidunt fugit sit iusto quaerat
+            aperiam eligendi soluta beatae dolores at suscipit quis, minus voluptas
+            voluptatibus obcaecati veritatis!Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Illum amet molestiae consequuntur incidunt fugit sit iusto quaerat
+            aperiam eligendi soluta beatae dolores at suscipit quis, minus voluptas
+        </p> <br>
+        <p>
+            Voluptatibus obcaecati veritatis!Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Illum amet molestiae consequuntur incidunt fugit sit iusto quaerat
+            aperiam eligendi soluta beatae dolores at suscipit quis, minus voluptas
+            voluptatibus obcaecati veritatis!Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Illum amet molestiae consequuntur incidunt fugit sit iusto quaerat
+            aperiam eligendi soluta beatae dolores at suscipit quis, minus voluptas
+            voluptatibus obcaecati veritatis!
+        </p> <a href="">leia mais...</a>
+    </div>
+</div>
+<div class="clear"></div>
+
 
 <?php
 
