@@ -1,0 +1,30 @@
+.titulo-site {
+    border-bottom: 1px solid rgb(206, 196, 196);
+}
+
+iframe {
+    padding-top: 20px;
+}
+
+.contato-conteudo {
+    width: auto;
+}
+
+
+.tipos-contatos {
+    font-size: 1.5em;
+}
+
+.clear {
+    clear: both;
+}
+
+.contato-contato {
+    margin-top: 200px;
+}
+
+@media (max-width: 768px) {
+    .contato-contato {
+        margin-top: 20px;
+    }
+}

@@ -1,9 +1,9 @@
-:root {
-    --font: 'Dancing Script', cursive;
+body {
+    margin: 0 auto;
 }
 
 header {
-    background: #f7b600;
+    background: #3b3d46;
     padding: 15px;
     text-align: center;
 }
@@ -11,14 +11,6 @@ header {
 #area-logo,
 #area-menu {
     padding: 10px;
-}
-
-header #slogan {
-    font-size: 1.4em;
-    font-family: var(--font);
-    position: absolute;
-    right: 150px;
-    top: 98px;
 }
 
 header a:link,
