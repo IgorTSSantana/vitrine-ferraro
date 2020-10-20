@@ -4,8 +4,16 @@ h1{
     text-align: center;
 }
 p{
-    margin: 0 0px;
+
     text-align: left;
+}
+
+.p-esquerda {
+    margin-left: 50px;
+}
+
+.p-direita {
+    margin-right: 50px;
 }
 
 p:before {

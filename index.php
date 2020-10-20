@@ -51,10 +51,10 @@ $post_destaques = [
     </div>
     <?php endif; ?>
 </section>
-<div id="duas-colunas">
-    <div id="texto1">
+<section class="row contato-conteudo">
+    <article class="col-lg-6">
         <h1>Um pouco da História</h1>
-        <p>
+        <p class="p-esquerda">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             Illum amet molestiae consequuntur incidunt fugit sit iusto quaerat
             aperiam eligendi soluta beatae dolores at suscipit quis, minus voluptas
@@ -62,20 +62,21 @@ $post_destaques = [
             Illum amet molestiae consequuntur incidunt fugit sit iusto quaerat
             aperiam eligendi soluta beatae dolores at suscipit quis, minus voluptas
         </p> <br>
-        <p>
+        <p class="p-esquerda">
             Voluptatibus obcaecati veritatis!Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             Illum amet molestiae consequuntur incidunt fugit sit iusto quaerat
             aperiam eligendi soluta beatae dolores at suscipit quis, minus voluptas
             voluptatibus obcaecati veritatis!Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             Illum amet molestiae consequuntur incidunt fugit sit iusto quaerat
             aperiam eligendi soluta beatae dolores at suscipit quis, minus voluptas
-            voluptatibus obcaecati veritatis!
-        </p> <a href="">leia mais...</a>
-    </div>
+            voluptatibus obcaecati veritatis! <br>
+            <a href="">leia mais...</a>
+        </p>
+    </article>
 
-    <div id="texto2">
+    <article class="col-lg-6">
         <h1>Um pouco da História</h1>
-        <p>
+        <p class="p-direita">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             Illum amet molestiae consequuntur incidunt fugit sit iusto quaerat
             aperiam eligendi soluta beatae dolores at suscipit quis, minus voluptas
@@ -83,17 +84,19 @@ $post_destaques = [
             Illum amet molestiae consequuntur incidunt fugit sit iusto quaerat
             aperiam eligendi soluta beatae dolores at suscipit quis, minus voluptas
         </p> <br>
-        <p>
+        <p class="p-direita">
             Voluptatibus obcaecati veritatis!Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             Illum amet molestiae consequuntur incidunt fugit sit iusto quaerat
             aperiam eligendi soluta beatae dolores at suscipit quis, minus voluptas
             voluptatibus obcaecati veritatis!Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             Illum amet molestiae consequuntur incidunt fugit sit iusto quaerat
             aperiam eligendi soluta beatae dolores at suscipit quis, minus voluptas
-            voluptatibus obcaecati veritatis!
-        </p> <a href="">leia mais...</a>
-    </div>
-</div>
+            voluptatibus obcaecati veritatis! <br>
+            <a href="">leia mais...</a>
+        </p>
+    </article>
+</section>
+
 <div class="clear"></div>
 
 

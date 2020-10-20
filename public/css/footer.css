@@ -1,5 +1,5 @@
 .footer-bs {
-    background-color: #101010;
+    background-color: var(--cor-preta);
     padding: 40px 20px;
     color: rgba(255, 255, 255, 1.00);
     margin-top: 200px;
@@ -109,7 +109,9 @@
 }
 
 .rodape-paragrafo{
+    text-align: center;
     margin: 0px;
+    padding-bottom: 14px;
     color: rgba(255, 255, 255, 1.00);
 }
 

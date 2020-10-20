@@ -27,15 +27,14 @@
     <header>
 
         <div id="area-logo">
-            <h1>Tec<span class="branco">Blog</span></h1>
+           <img style="width:150px;height:150px;" src="<?php echo get_template_directory_uri() . '/public/img/coliseu.png' ?>">
         </div>
 
         <div id="area-menu">
-            <a href="index.php">Home</a>
-            <a href="jogos.html">Jogos</a>
-            <a href="celulares.html">Celulares</a>
-            <a href="informatica.html">Informática</a>
-            <a href="eletronicos.html">Eletrônicos</a>
+            <a href="<?php echo get_template_directory_uri() . 'index.php' ?>">HOME</a>
+            <a href="<?php echo get_template_directory_uri() . 'page-produtos.php' ?>">PRODUTOS</a>
+            <a href="<?php echo get_template_directory_uri() . 'sobre.php' ?>">SOBRE A EMPRESA</a>
+            <a href="<?php echo get_template_directory_uri() . 'page-contato.php' ?>">CONTATO</a>
         </div>
 
     </header>

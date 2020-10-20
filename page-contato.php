@@ -24,11 +24,10 @@ get_header();
         </article>
 
         <article class="col-lg-5 contato-contato">
-            <h3 class="tipos-contatos">E-mail: loremipsum@hotmail.com</h3>
-            <h3 class="tipos-contatos">Telefone: (11)92498-2354</h3>
-            <!-- <i class="fab fa-facebook"></i> -->
-            <h3 class="tipos-contatos">Facebook</h3>
-            <h3 class="tipos-contatos">Instagram</h3>
+            <h3 class="tipos-contatos"><i class="fas fa-envelope"></i>&nbspE-mail: loremipsum@hotmail.com</h3>
+            <h3 class="tipos-contatos"><i class="fas fa-phone-alt"></i>&nbspTelefone: (11)92498-2354</h3>
+            <h3 class="tipos-contatos"><i class="fab fa-facebook"></i>&nbspFacebook</h3>
+            <h3 class="tipos-contatos"><i class="fab fa-instagram"></i>&nbspInstagram</h3>
         </article>
 
     </section> <div class="clear"></div>
