@@ -13,10 +13,10 @@
                             <h4>Menu —</h4>
                             <div class="col-md-6">
                                 <ul class="pages">
-                                    <li><a href="#">Home</a></li>
+                                    <li><a href="<?php echo get_site_url() . '/' ?>">Home</a></li>
                                     <li><a href="#">Produtos</a></li>
-                                    <li><a href="#">Sobre a Empresa</a></li>
-                                    <li><a href="#">Contato</a></li>
+                                    <li><a href="<?php echo get_template_directory_uri() . '/sobre' ?>">Sobre a Empresa</a></li>
+                                    <li><a href="<?php echo get_template_directory_uri() . '/contato' ?>">Contato</a></li>
                                 </ul>
                             </div>
                         </div>
