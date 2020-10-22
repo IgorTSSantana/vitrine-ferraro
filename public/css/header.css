@@ -13,13 +13,29 @@ header {
     padding: 10px;
 }
 
-header a:link,
-header a:visited {
+.menu-link {
+    color: #FFF;
+    background: none;
+    border: none;
+    padding-bottom: 3px;
+}
+
+.dropdown-link {
+    font-size: 0.9em;
+    background-color: var(--cor-preta);
+}
+
+.dropdown-link:hover {
+    background-color: var(--cor-preta);
+}
+
+.menu-link:link,
+.menu-link:visited {
     color: #FFF;
     padding: 8px 12px;
 }
 
-header a:hover {
+.menu-link:hover {
     color: rgb(247, 225, 105);
     text-decoration: none;
 }

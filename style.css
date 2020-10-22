@@ -16,3 +16,7 @@ Text Domain: vitrine-ferraro
     --cor-preta: #1b1b1b;
 }
 
+.nocomments {
+    display: none;
+}
+
