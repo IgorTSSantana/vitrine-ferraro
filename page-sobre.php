@@ -15,19 +15,31 @@ get_header();
             <span class="titulo-pagina"><?php the_title(); ?></span>
         </h1>
     </div>
-    <section class="row contato-conteudo">
-        <article class="col-lg-7">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3660.063408109535!2d-46.51038488507241!3d-23.458177184734154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce8aafb8b62b4f%3A0x31df8559099cc17b!2sAv.%20Santa%20B%C3%A1rbara%2C%20202%20-%20Vila%20Fatima%2C%20Guarulhos%20-%20SP%2C%2007191-310!5e0!3m2!1spt-BR!2sbr!4v1602884638405!5m2!1spt-BR!2sbr"
-                width="500" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-                tabindex="0"></iframe>
+    <section class="row">
+        <article class="col-lg-7 margem" >
+            <img style="width:485px;height:522px;"
+            src="<?php echo get_template_directory_uri() . '/public/img/frente-loja.jpg' ?>">
         </article>
 
-        <article class="col-lg-5 contato-contato">
-            <h3 class="tipos-contatos"><i class="fas fa-envelope"></i>&nbspE-mail: loremipsum@hotmail.com</h3>
-            <h3 class="tipos-contatos"><i class="fas fa-phone-alt"></i>&nbspTelefone: (11)92498-2354</h3>
-            <h3 class="tipos-contatos"><i class="fab fa-facebook"></i>&nbspFacebook</h3>
-            <h3 class="tipos-contatos"><i class="fab fa-instagram"></i>&nbspInstagram</h3>
+        <article class="col-lg-5 margem">
+        <h3>História</h3>
+        A Óptica Ferraro é uma pequena óptica fundada em 2014 pelo casal Leonardo e Elisabete com o objetivo
+        de ajudar as pessoas que necessitam de óculos de grau ou mesmo as que so querem um óculos de sol. Vendendo armações, lentes de grau e óculos de sol de ótima qualidade.
+        Com seus produtos de otima qualidade ao longo do tempo conseguiram conquistar uma crientela ...
+        <h3 class="margem-top">Missão</h3>
+        Vender óculos em geral de ótima qualidade e com um preço bom para todos os níveis sociais.</br>
+        <h3 class="margem-top">Visão</h3>
+        Ser uma óptica em destaque nacional e ter seus produtos reconhecidos pela sua excelente qualidade.</br>
+        <h3 class="margem-top">Valores</h3>
+        <ul class="lista">
+            <li>Honestidade</li>
+            <li>Qualidade</li>
+            <li>Comprometimento</li>
+            <li>Respeito</li>
+            <li>Lealdade</li>
+            <li>Higiene</li>
+        </ul>
+
         </article>
 
     </section> <div class="clear"></div>
