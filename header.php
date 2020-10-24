@@ -30,8 +30,8 @@
 </head>
 <?php
     $cat_args = [
-        'orderby'    => 'name',
-        'order'      => 'asc',
+        // 'orderby'    => 'name',
+        // 'order'      => 'desc',
         'hide_empty' => false,
     ];
 
