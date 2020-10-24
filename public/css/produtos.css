@@ -1,0 +1,21 @@
+.titulo-produto {
+    font-weight: 900;
+}
+
+.preco {
+    color: red;
+}
+
+.codigo-produto {
+    font-size: 0.7em;
+}
+
+.card {
+    width: auto;
+    margin-right: 50px;
+}
+
+.sexo {
+    font-size: 0.8em;
+    font-style: italic;
+}

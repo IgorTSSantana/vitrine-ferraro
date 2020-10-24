@@ -17,6 +17,7 @@
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() . '/public/css/header.css'?>">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() . '/public/css/footer.css'?>">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() . '/public/css/sobre.css'?>">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() . '/public/css/produtos.css'?>">
 
     <script src="<?php echo get_template_directory_uri() . '/public/js/jquery.min.js'?>"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
@@ -50,13 +51,12 @@
             <a class="menu-link" href="<?php echo get_site_url() . '/' ?>">HOME</a>
             <?php if (!empty($product_categories)) : ?>
             <div class="btn-group menu-link">
-                <button type="button" class="menu-link">PRODUTOS</button>
+                <button id="todos-produtos" type="button" class="menu-link">PRODUTOS</button>
                 <button type="button" class="menu-link dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">
                     <span class="sr-only menu-link">Toggle Dropdown</span>
                 </button>
                 <div class="dropdown-menu menu-link dropdown-link">
-
 
                     <?php foreach ($product_categories as $key => $category) : ?>
                     <?php if($category->slug !='sem-categoria') :?>
