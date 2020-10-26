@@ -48,10 +48,10 @@
         </div>
 
         <div id="area-menu">
-            <a class="menu-link" href="<?php echo get_site_url() . '/' ?>">HOME</a>
+           | <a class="menu-link" href="<?php echo get_site_url() . '/' ?>">HOME</a> |
             <?php if (!empty($product_categories)) : ?>
             <div class="btn-group menu-link">
-                <button id="todos-produtos" type="button" class="menu-link">PRODUTOS</button>
+                <button id="todos-produtos" type="button" class="menu-link botao-produtos">PRODUTOS</button>
                 <button type="button" class="menu-link dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">
                     <span class="sr-only menu-link">Toggle Dropdown</span>
@@ -60,7 +60,7 @@
 
                     <?php foreach ($product_categories as $key => $category) : ?>
                     <?php if($category->slug !='sem-categoria') :?>
-                    <a class="dropdown-item menu-link dropdown-link" href="<?= get_term_link($category) ?>">
+                    <a class="dropdown-item categorias-produtos" href="<?= get_term_link($category) ?>">
                         <?= $category->name ?>
                     </a>
                     <?php endif; ?>
@@ -70,8 +70,9 @@
                 </div>
                 <?php endif; ?>
             </div>
-            <a class="menu-link" href="<?php echo get_template_directory_uri() . '/sobre' ?>">SOBRE A EMPRESA</a>
-            <a class="menu-link" href="<?php echo get_template_directory_uri() . '/contato' ?>">CONTATO</a>
+
+           | <a class="menu-link" href="<?php echo get_template_directory_uri() . '/sobre' ?>">SOBRE A EMPRESA</a> |
+            <a class="menu-link" href="<?php echo get_template_directory_uri() . '/contato' ?>">CONTATO</a> |
 
 
 

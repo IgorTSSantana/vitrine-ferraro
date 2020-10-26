@@ -18,21 +18,48 @@ header {
     background: none;
     border: none;
     padding-bottom: 3px;
+    font-size: 1.3em;
 }
 
 .dropdown-link {
     font-size: 0.9em;
     background-color: var(--cor-preta);
+    margin-right: 80px;
+}
+
+.dropdown-toggle-split {
+    margin-right: 40px;
 }
 
 .dropdown-link:hover {
     background-color: var(--cor-preta);
 }
 
+.dropdown-item {
+    width: 0%;
+    padding: 0;
+}
+
+.categorias-produtos {
+    margin: 7px 10px;
+    color: #FFF;
+}
+
+.categorias-produtos:hover {
+    color: rgb(247, 225, 105);
+    text-decoration: none;
+}
+
+.botao-produtos {
+    font-size: 1.01em;
+    margin: 8px 50px;
+    margin-right: 0px
+}
+
 .menu-link:link,
 .menu-link:visited {
     color: #FFF;
-    padding: 8px 12px;
+    margin: 8px 50px;
 }
 
 .menu-link:hover {

@@ -23,13 +23,16 @@ get_header();
 
         <article class="col-lg-5 margem">
         <h3>História</h3>
-        A Óptica Ferraro é uma pequena óptica fundada em 2014 pelo casal Leonardo e Elisabete com o objetivo
+        <p>A Óptica Ferraro é uma pequena óptica fundada em 2014 pelo casal Leonardo e Elisabete com o objetivo
         de ajudar as pessoas que necessitam de óculos de grau ou mesmo as que so querem um óculos de sol. Vendendo armações, lentes de grau e óculos de sol de ótima qualidade.
         Com seus produtos de otima qualidade ao longo do tempo conseguiram conquistar uma crientela ...
+        </p>
         <h3 class="margem-top">Missão</h3>
-        Vender óculos em geral de ótima qualidade e com um preço bom para todos os níveis sociais.</br>
+        <p>Vender óculos em geral de ótima qualidade e com um preço bom para todos os níveis sociais.</br>
+        </p>
         <h3 class="margem-top">Visão</h3>
-        Ser uma óptica em destaque nacional e ter seus produtos reconhecidos pela sua excelente qualidade.</br>
+        <p>Ser uma óptica em destaque nacional e ter seus produtos reconhecidos pela sua excelente qualidade.</br>
+        </p>
         <h3 class="margem-top">Valores</h3>
         <ul class="lista">
             <li>Honestidade</li>
