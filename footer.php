@@ -3,11 +3,9 @@
                     <footer class="footer-bs">
                     <div class="row">
                         <div class="col-md-4 footer-brand animated fadeInLeft">
-                            <h2>Logo</h2>
-                            <p>Suspendisse hendrerit tellus laoreet luctus pharetra. Aliquam porttitor vitae orci nec
-                                ultricies. Curabitur vehicula, libero eget faucibus faucibus, purus erat eleifend enim,
-                                porta pellentesque ex mi ut sem.</p>
-                            <p>© 2014 BS3 UI Kit, All rights reserved</p>
+                            <img class="foto-logo" style="width:200px;height:200px;"
+                src="<?php echo get_template_directory_uri() . '/public/img/Logomarca.png' ?>">
+                            <p>© 2020 TP79 FI Tapeça, TODOS os direitos reservados</p>
                         </div>
                         <div class="col-md-4 footer-nav animated fadeInUp">
                             <h4>Menu —</h4>
