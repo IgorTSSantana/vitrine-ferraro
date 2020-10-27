@@ -3,22 +3,30 @@ body {
 }
 
 header {
+
     background: var(--cor-preta);
-    padding: 15px;
     text-align: center;
 }
 
 #area-logo,
 #area-menu {
-    padding: 10px;
+    padding-bottom: 5px;
 }
+
+.slogan {
+    font-family: 'Dancing Script';
+    color: #FFF;
+    font-size: 1.5em;
+
+}
+
 
 .menu-link {
     color: #FFF;
     background: none;
     border: none;
     padding-bottom: 3px;
-    font-size: 1.3em;
+    font-size: 1.1em;
 }
 
 .dropdown-link {
@@ -28,7 +36,7 @@ header {
 }
 
 .dropdown-toggle-split {
-    margin-right: 40px;
+    margin-right: 5px;
 }
 
 .dropdown-link:hover {
@@ -38,6 +46,11 @@ header {
 .dropdown-item {
     width: 0%;
     padding: 0;
+}
+
+.dropdown-toggle::after {
+    border-right: .2em solid transparent;
+    border-left: .2em solid transparent;
 }
 
 .categorias-produtos {
@@ -52,14 +65,14 @@ header {
 
 .botao-produtos {
     font-size: 1.01em;
-    margin: 8px 50px;
+    margin: 8px 10px;
     margin-right: 0px
 }
 
 .menu-link:link,
 .menu-link:visited {
     color: #FFF;
-    margin: 8px 50px;
+    margin: 8px 10px;
 }
 
 .menu-link:hover {

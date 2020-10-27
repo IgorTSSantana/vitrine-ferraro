@@ -43,9 +43,11 @@
     <header>
 
         <div id="area-logo">
-            <img style="width:539px;height:193px;"
+            <img class="imagem-logo" style="width:560px;height:200px;"
                 src="<?php echo get_template_directory_uri() . '/public/img/logo2.png' ?>">
+
         </div>
+        <span class="slogan">Enxergue como você nunca viu!</span>
 
         <div id="area-menu">
            | <a class="menu-link" href="<?php echo get_site_url() . '/' ?>">HOME</a> |
@@ -74,8 +76,5 @@
            | <a class="menu-link" href="<?php echo get_template_directory_uri() . '/sobre' ?>">SOBRE A EMPRESA</a> |
             <a class="menu-link" href="<?php echo get_template_directory_uri() . '/contato' ?>">CONTATO</a> |
 
-
-
         </div>
-
     </header>

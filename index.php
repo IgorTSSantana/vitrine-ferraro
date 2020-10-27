@@ -55,43 +55,19 @@ $post_destaques = [
     <article class="col-lg-6">
         <h1>Um pouco da História</h1>
         <p class="p-esquerda">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Illum amet molestiae consequuntur incidunt fugit sit iusto quaerat
-            aperiam eligendi soluta beatae dolores at suscipit quis, minus voluptas
-            voluptatibus obcaecati veritatis!Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Illum amet molestiae consequuntur incidunt fugit sit iusto quaerat
-            aperiam eligendi soluta beatae dolores at suscipit quis, minus voluptas
-        </p> <br>
-        <p class="p-esquerda">
-            Voluptatibus obcaecati veritatis!Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Illum amet molestiae consequuntur incidunt fugit sit iusto quaerat
-            aperiam eligendi soluta beatae dolores at suscipit quis, minus voluptas
-            voluptatibus obcaecati veritatis!Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Illum amet molestiae consequuntur incidunt fugit sit iusto quaerat
-            aperiam eligendi soluta beatae dolores at suscipit quis, minus voluptas
-            voluptatibus obcaecati veritatis! <br>
-            <a href="">leia mais...</a>
+            A Óptica Ferraro é uma pequena óptica fundada em 2014 pelo casal Leonardo e Elisabete com o objetivo de
+            ajudar as pessoas que necessitam de óculos de grau ou mesmo as que so querem um ...
+            <a href="">leia mais</a>
         </p>
     </article>
 
     <article class="col-lg-6">
-        <h1>Um pouco da História</h1>
+        <h1>Spark AR</h1>
         <p class="p-direita">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Illum amet molestiae consequuntur incidunt fugit sit iusto quaerat
-            aperiam eligendi soluta beatae dolores at suscipit quis, minus voluptas
-            voluptatibus obcaecati veritatis!Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Illum amet molestiae consequuntur incidunt fugit sit iusto quaerat
-            aperiam eligendi soluta beatae dolores at suscipit quis, minus voluptas
-        </p> <br>
-        <p class="p-direita">
-            Voluptatibus obcaecati veritatis!Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Illum amet molestiae consequuntur incidunt fugit sit iusto quaerat
-            aperiam eligendi soluta beatae dolores at suscipit quis, minus voluptas
-            voluptatibus obcaecati veritatis!Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Illum amet molestiae consequuntur incidunt fugit sit iusto quaerat
-            aperiam eligendi soluta beatae dolores at suscipit quis, minus voluptas
-            voluptatibus obcaecati veritatis! <br>
+        Para a criação do filtro dos óculos será utilizado o software Spark AR que
+        através da inteligência artificial adequa a imagem (no caso o óculos) ao rosto do
+        usuário. No site haverá um link direto para o Instagram da ótica, onde terá disponível
+        os filtros para o cliente experimentar.
             <a href="">leia mais...</a>
         </p>
     </article>

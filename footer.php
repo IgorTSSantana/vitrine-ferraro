@@ -3,12 +3,12 @@
                     <footer class="footer-bs">
                     <div class="row">
                         <div class="col-md-4 footer-brand animated fadeInLeft">
-                            <img class="foto-logo" style="width:200px;height:200px;"
+                            <img class="foto-logo" style="width:250px;height:250px;"
                 src="<?php echo get_template_directory_uri() . '/public/img/Logomarca.png' ?>">
                             <p>© 2020 TP79 FI Tapeça, TODOS os direitos reservados</p>
                         </div>
                         <div class="col-md-4 footer-nav animated fadeInUp">
-                            <h4>Menu —</h4>
+                            <h4>Menu</h4>
                             <div class="col-md-6">
                                 <ul class="pages">
                                     <li><a href="<?php echo get_site_url() . '/' ?>">Home</a></li>

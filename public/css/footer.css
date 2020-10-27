@@ -1,6 +1,6 @@
 .footer-bs {
     background-color: var(--cor-preta);
-    padding: 40px 20px;
+    padding: 0px 20px;
     color: rgba(255, 255, 255, 1.00);
     margin-top: 200px;
     }
@@ -131,4 +131,29 @@
 
 .foto-logo{
     margin-left: 100px;
+}
+
+.footer-bs .footer-nav ul.pages a:hover {
+    color: rgb(247, 225, 105);
+    text-decoration: none;
+}
+
+.footer-bs .footer-social a:hover {
+    color: rgb(247, 225, 105);
+    text-decoration: none;
+}
+
+.footer-bs .footer-nav h4 {
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.footer-bs .footer-social h4 {
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.footer-bs .footer-brand p {
+    padding-left: 65px;
+    margin-bottom: -10px;
 }
