@@ -8,6 +8,10 @@ p{
     text-align: left;
 }
 
+.carrossel {
+    margin-top: 15px;
+}
+
 .p-esquerda {
     margin-left: 50px;
     font-size: 1.5em;
@@ -45,4 +49,24 @@ p:before {
 
 .clear {
     clear: both;
+}
+
+.destaques-masculinos {
+    margin-top: 40px;
+
+    border-right: 2px dotted #1b1b1b;;
+}
+
+.destaques-femininos {
+    margin-top: 40px;
+    margin-left: 8px;
+}
+
+.texto-destaques {
+    color: rgb(236, 30, 30);
+    margin-top: 22px;
+    font-size: 2.2em;
+    text-align: center;
+    display: block;
+    font-family: 'Dancing Script';
 }

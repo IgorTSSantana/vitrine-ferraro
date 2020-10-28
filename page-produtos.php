@@ -7,13 +7,17 @@
 get_header();
 
 $paged = (get_query_var('page')) ? get_query_var('page') : 1;
+$filtro_categoria = $_GET['categoria'];
+$filtro_atributo = $_GET['atributo'];
 $args = [
     'post_type' => 'product',
     'posts_per_page' => 10,
-    // 'product_cat' => 'oculos-grau',
+    // 'product_cat' => $filtro_categoria,
     'paged' => $paged
 ];
-
+if(isset($filtro_atributo)) {
+     $args['meta_query']=$filtro_atributo;
+}
 ?>
 
 <div class="container container-top">
@@ -32,14 +36,21 @@ $args = [
         <div class="col-md-2">
             <p class="texto-genero">Escolha o gênero de armação desejado:</p>
             <div>
-                <input type="checkbox" id="sexo" name="masculino" checked>
+                <input type="radio" id="sexo" name="atributo" value="masculino">
                 <label for="sexo">Masculino</label>
             </div>
 
             <div>
-                <input type="checkbox" id="sexo" name="feminino">
+                <input type="radio" id="sexo" name="atributo" value="feminino">
                 <label for="sexo">Feminino</label>
             </div>
+            <div>
+                <input type="radio" id="sexo" name="atributo" value="todos" checked>
+                <label for="sexo">Todos</label>
+            </div>
+            <button class="btn btn-primary" type="button" id="botao-filtrar">
+                Aplicar
+            </button>
         </div>
 
         <div class="col-md-10">
@@ -53,7 +64,7 @@ $args = [
             <?php $product = new WC_product(get_the_ID());
             $attachment_ids = $product->get_gallery_image_ids();
             ?>
-            <div class="card">
+            <div class="card card-produto">
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -63,8 +74,8 @@ $args = [
 
                         <?php foreach( $attachment_ids as $attachment_id ) : ?>
                         <div class="carousel-item">
+                        <?php echo wp_get_attachment_image($attachment_id, 'thumbnail', "", ["class" => "imagem-produto"] ); ?>
 
-                            <img class="imagem-produto" src="<?php echo wp_get_attachment_image($attachment_id); ?>">
                         </div>
                         <?php endforeach ?>
                     </div>
@@ -124,5 +135,12 @@ $args = [
     <?php endif; ?>
 
 </div>
+
+<script>
+    $('body').on('click','#botao-filtrar',function(){
+        let filtro=$('input[name="atributo"]:checked')
+        window.location.href=window.location.origin + '/wordpress/produtos?atributo=' + filtro.val()
+    })
+</script>
 
 <?php get_footer(); ?>

@@ -21,7 +21,24 @@ iframe {
 }
 
 .contato-contato {
-    margin-top: 200px;
+    margin-top: 300px;
+}
+
+.contato-contato a {
+    text-decoration: none;
+    color: black;
+}
+
+.contato-contato a:hover {
+    text-decoration: none;
+    color: blue;
+}
+
+.imagem-frente-loja{
+    width: 581.7px;
+    height: 625.8px;
+    margin-bottom: 50px;
+    margin-top: 15px;
 }
 
 @media (max-width: 768px) {

@@ -7,10 +7,25 @@
 }
 
 .margem-top{
-    margin-top: 20px;
+    margin-top: 55px;
 }
 
 .lista{
     list-style: disc;
     margin-left: 20px;
+}
+
+#imagem-loja {
+
+    margin:0 auto;
+    margin-top: 15px;
+    width: 1008px;
+    height: 490px;
+    transition: background-image 1s ease-in-out;
+    background-image:url("../img/loja-interno-esquerdo.jpg");
+    background-size: 1008px 490px;
+}
+
+#imagem-loja:hover {
+    background-image:url("../img/loja-interno-direito.jpg");
 }

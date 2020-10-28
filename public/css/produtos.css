@@ -10,9 +10,12 @@
     font-size: 0.7em;
 }
 
-.card {
-    width: auto;
+.card-produto {
+    width: 150px;
     margin-right: 50px;
+    margin-top: 15px;
+    display: flex;
+    float: left;
 }
 
 .sexo {
@@ -22,6 +25,7 @@
 
 .texto-genero {
     text-align: left;
+    margin-top: 15px;
 }
 
 .texto-genero:before {

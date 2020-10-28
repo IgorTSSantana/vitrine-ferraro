@@ -14,7 +14,7 @@ $post_destaques = [
     <?php $post = $posts[0]; ?>
     <?php $contador_carrossel = 0; ?>
     <?php $contador_indicador = 0; ?>
-    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleCaptions" class="carousel slide carrossel" data-ride="carousel">
         <ol class="carousel-indicators">
             <?php while ($contador_indicador < 3) : ?>
             <li data-target="#carousel-slide" data-slide-to="<?php echo $contador_indicador++; ?>"
@@ -51,25 +51,140 @@ $post_destaques = [
     </div>
     <?php endif; ?>
 </section>
-<section class="row contato-conteudo">
-    <article class="col-lg-6">
-        <h1>Um pouco da História</h1>
-        <p class="p-esquerda">
-            A Óptica Ferraro é uma pequena óptica fundada em 2014 pelo casal Leonardo e Elisabete com o objetivo de
-            ajudar as pessoas que necessitam de óculos de grau ou mesmo as que so querem um ...
-            <a href="">leia mais</a>
-        </p>
+<section class="row oculos-destaques">
+
+    <article class="col-sm-6">
+                <span class="texto-destaques">Destaques Masculinos</span>
+        <div class="container destaques-masculinos">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card" style="width: 11rem;">
+                        <img class="card-img-top imagem-produto"
+                            src="<?php echo get_template_directory_uri() . '/public/img/teste.jpg' ?>" alt="destq masc">
+                        <div class="card-body">
+                            <span class="codigo-produto">
+                                SKU-1576
+
+                            </span> <br>
+                            <span class="titulo-produto">
+                                Ferraro
+                            </span><br>
+                            <span class="preco">
+                                R$200.00
+                            </span><br>
+                            <a href="#" class="btn btn-primary">Veja mais...</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card" style="width: 11rem;">
+                        <img class="card-img-top imagem-produto"
+                            src="<?php echo get_template_directory_uri() . '/public/img/teste.jpg' ?>" alt="destq masc">
+                        <div class="card-body">
+                            <span class="codigo-produto">
+                                SKU-1576
+
+                            </span> <br>
+                            <span class="titulo-produto">
+                                Ferraro
+                            </span><br>
+                            <span class="preco">
+                                R$200.00
+                            </span><br>
+                            <a href="#" class="btn btn-primary">Veja mais...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card" style="width: 11rem;">
+                        <img class="card-img-top imagem-produto"
+                            src="<?php echo get_template_directory_uri() . '/public/img/teste.jpg' ?>" alt="destq masc">
+                        <div class="card-body">
+                            <span class="codigo-produto">
+                                SKU-1576
+
+                            </span> <br>
+                            <span class="titulo-produto">
+                                Ferraro
+                            </span><br>
+                            <span class="preco">
+                                R$200.00
+                            </span><br>
+                            <a href="#" class="btn btn-primary">Veja mais...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </article>
 
-    <article class="col-lg-6">
-        <h1>Spark AR</h1>
-        <p class="p-direita">
-        Para a criação do filtro dos óculos será utilizado o software Spark AR que
-        através da inteligência artificial adequa a imagem (no caso o óculos) ao rosto do
-        usuário. No site haverá um link direto para o Instagram da ótica, onde terá disponível
-        os filtros para o cliente experimentar.
-            <a href="">leia mais...</a>
-        </p>
+
+    <article class="col-sm-6">
+    <span class="texto-destaques">Destaques Femininos</span>
+        <div class="container destaques-femininos">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card" style="width: 11rem;">
+                        <img class="card-img-top imagem-produto"
+                            src="<?php echo get_template_directory_uri() . '/public/img/teste.jpg' ?>" alt="destq masc">
+                        <div class="card-body">
+                            <span class="codigo-produto">
+                                SKU-1576
+
+                            </span> <br>
+                            <span class="titulo-produto">
+                                Ferraro
+                            </span><br>
+                            <span class="preco">
+                                R$200.00
+                            </span><br>
+                            <a href="#" class="btn btn-primary">Veja mais...</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card" style="width: 11rem;">
+                        <img class="card-img-top imagem-produto"
+                            src="<?php echo get_template_directory_uri() . '/public/img/teste.jpg' ?>" alt="destq masc">
+                        <div class="card-body">
+                            <span class="codigo-produto">
+                                SKU-1576
+
+                            </span> <br>
+                            <span class="titulo-produto">
+                                Ferraro
+                            </span><br>
+                            <span class="preco">
+                                R$200.00
+                            </span><br>
+                            <a href="#" class="btn btn-primary">Veja mais...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card" style="width: 11rem;">
+                        <img class="card-img-top imagem-produto"
+                            src="<?php echo get_template_directory_uri() . '/public/img/teste.jpg' ?>" alt="destq masc">
+                        <div class="card-body">
+                            <span class="codigo-produto">
+                                SKU-1576
+
+                            </span> <br>
+                            <span class="titulo-produto">
+                                Ferraro
+                            </span><br>
+                            <span class="preco">
+                                R$200.00
+                            </span><br>
+                            <a href="#" class="btn btn-primary">Veja mais...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </article>
 </section>
 

@@ -16,20 +16,23 @@ get_header();
         </h1>
     </div>
     <section class="row">
-        <article class="col-lg-7 margem" >
-            <img style="width:485px;height:522px;"
-            src="<?php echo get_template_directory_uri() . '/public/img/frente-loja.jpg' ?>">
+        <article class="col-lg-12" >
+            <div id="imagem-loja"></div>
         </article>
 
-        <article class="col-lg-5 margem">
-        <h3>História</h3>
+        <article class="col-lg-6 margem">
+        <h3 class="margem-top">História</h3>
         <p>A Óptica Ferraro é uma pequena óptica fundada em 2014 pelo casal Leonardo e Elisabete com o objetivo
-        de ajudar as pessoas que necessitam de óculos de grau ou mesmo as que so querem um óculos de sol. Vendendo armações, lentes de grau e óculos de sol de ótima qualidade.
-        Com seus produtos de otima qualidade ao longo do tempo conseguiram conquistar uma crientela ...
+        de ajudar as pessoas que necessitam de óculos de grau ou mesmo as que precisam de um óculos de sol.
+        Com seus produtos de ótima qualidade, ao longo do tempo conseguiram conquistar uma boa clientela na região
+        vendendo armações, lentes de grau e óculos de sol de ótima qualidade.
         </p>
         <h3 class="margem-top">Missão</h3>
-        <p>Vender óculos em geral de ótima qualidade e com um preço bom para todos os níveis sociais.</br>
-        </p>
+        <ul class="lista">
+            <li>Vender óculos em geral de ótima qualidade e com um preço bom para todos os níveis sociais.</li></br>
+        </ul>
+    </article>
+    <article class="col-lg-6 margem">
         <h3 class="margem-top">Visão</h3>
         <p>Ser uma óptica em destaque nacional e ter seus produtos reconhecidos pela sua excelente qualidade.</br>
         </p>
