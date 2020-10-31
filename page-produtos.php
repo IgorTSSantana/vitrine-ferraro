@@ -11,10 +11,11 @@ $filtro_categoria = $_GET['categoria'];
 $filtro_atributo = $_GET['atributo'];
 $args = [
     'post_type' => 'product',
-    'posts_per_page' => 10,
+    'posts_per_page' => 8,
     'product_cat' => $filtro_categoria,
     'paged' => $paged,
 ];
+
 if (!is_null($filtro_atributo) && $filtro_atributo != 'todos') {
     $args['taxonomy'] = 'pa_sexo';
     $args['term'] = $filtro_atributo;
@@ -74,6 +75,11 @@ if (!is_null($filtro_atributo) && $filtro_atributo != 'todos') {
                                 <span class="sr-only">Next</span>
                             </a>
                         </div>
+                        <?php if ($product->get_attribute('pa_instagram') == "Sim") : ?>
+                            <div class="insta-img">
+                            <img src="<?php echo get_template_directory_uri() . '/public/img/instagram.svg' ?>" style="width: 30px; height: 30px;">
+                            </div>
+                        <?php endif; ?>
                         <div class="card-body">
                             <span class="codigo-produto">
                                 <?php echo get_post_meta(get_the_ID(), '_sku', true) ?>
@@ -94,15 +100,28 @@ if (!is_null($filtro_atributo) && $filtro_atributo != 'todos') {
                         </div>
                     </div>
                 <?php endwhile; ?>
-                <?php wp_reset_query(); ?>
-                <nav>
-                    <ul>
-                        <li><?php previous_posts_link('&laquo; PREV', $loop->max_num_pages) ?></li>
-                        <li><?php next_posts_link('NEXT &raquo;', $loop->max_num_pages) ?></li>
-                    </ul>
-                </nav>
             </div>
         </section>
+            <nav class="d-flex justify-content-center" aria-label="Page navigation example" style="margin-top: 75px;">
+                <ul class="pagination">
+                    <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                    </li>
+                </ul>
+            </nav>
+        <?php wp_reset_query(); ?>
         <div class="clear"></div>
         <?php comments_template(); ?>
 

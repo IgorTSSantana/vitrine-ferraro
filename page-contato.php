@@ -21,8 +21,8 @@ get_header();
         </article>
 
         <article class="col-lg-5 contato-contato">
-            <h3 class="tipos-contatos"><i class="fas fa-envelope"></i>&nbspE-mail: loremipsum@hotmail.com</h3>
-            <h3 class="tipos-contatos"><i class="fas fa-phone-alt"></i>&nbspTelefone: (11)2937-6479/<br>(11)947000684</h3>
+            <h3 class="tipos-contatos"><i class="fas fa-envelope"></i>&nbspE-mail: betlio@yahoo.com.br</h3>
+            <h3 class="tipos-contatos"><i class="fas fa-phone-alt"></i>&nbspTelefone: (11)2937-6479/<br>(11)94700-0684</h3>
             <a href="https://www.facebook.com/profile.php?id=100007223254486" target="_blank"><h3 class="tipos-contatos"><i class="fab fa-facebook"></i>&nbsp Óptica Ferraro</h3></a>
             <a href="https://www.instagram.com/ferraro_optica/?hl=pt-br" target="_blank"><h3 class="tipos-contatos"><i class="fab fa-instagram"></i>&nbsp @ferraro_optica</h3></a>
         </article>

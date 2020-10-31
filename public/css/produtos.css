@@ -23,6 +23,18 @@
     font-style: italic;
 }
 
+.insta-img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 35%;
+    left: 75%;
+}
+
+.categoria{
+    font-size: 0.95em;
+}
+
 .texto-genero {
     text-align: left;
     margin-top: 15px;

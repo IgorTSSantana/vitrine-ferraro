@@ -16,20 +16,21 @@
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() . '/public/css/footer.css' ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() . '/public/css/sobre.css' ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() . '/public/css/produtos.css' ?>">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() . '/public/slick/slick/slick.css' ?>" />
 
-    <script src="<?php echo get_template_directory_uri() . '/public/js/jquery.min.js' ?>"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    <script type="text/javascript" src="<?php echo get_template_directory_uri() . '/public/js/jquery.min.js' ?>"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
     </script>
-    <script src="<?php echo get_template_directory_uri() . '/public/bootstrap/js/bootstrap.min.js' ?>"></script>
-
+    <script type="text/javascript" src="<?php echo get_template_directory_uri() . '/public/bootstrap/js/bootstrap.min.js' ?>"></script>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri() . '/public/slick/slick/slick.min.js' ?>"></script>
 
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 
 </head>
 <?php
 $cat_args = [
-    // 'orderby'    => 'name',
-    // 'order'      => 'desc',
+    'orderby'    => 'name',
+    'order'      => 'desc',
     'hide_empty' => false,
 ];
 
