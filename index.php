@@ -10,14 +10,14 @@ $post_destaques = [
 
 $args_masc_destaques = [
     'post_type' => 'product',
-    'posts_per_page' => 10,
+    'posts_per_page' => 1000,
     'taxonomy' => 'pa_destaque',
     'term' => 'sim'
 ];
 
 $args_fem_destaques = [
     'post_type' => 'product',
-    'posts_per_page' => 10,
+    'posts_per_page' => 1000,
     'taxonomy' => 'pa_destaque',
     'term' => 'sim'
 ];
@@ -76,6 +76,7 @@ $args_fem_destaques = [
                     <?php $preco = str_replace(".", ",", get_post_meta(get_the_ID(), '_regular_price', true)) ?>
                     <?php $product = new WC_product(get_the_ID()); ?>
                     <?php $attachment_ids = $product->get_gallery_image_ids(); ?>
+
                     <?php if ($product->get_attribute( 'pa_sexo' ) == "Masculino") : ?>
                         <div class="card card-produto">
                             <div id="carrossel_<?= $product->id ?>" class="carousel slide" data-ride="carousel">

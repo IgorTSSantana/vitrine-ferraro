@@ -14,6 +14,7 @@ $args = [
     'posts_per_page' => 8,
     'product_cat' => $filtro_categoria,
     'paged' => $paged,
+    'orderby' => 'rand',
 ];
 
 if (!is_null($filtro_atributo) && $filtro_atributo != 'todos') {
