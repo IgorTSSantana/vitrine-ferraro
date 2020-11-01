@@ -216,6 +216,10 @@ $args_fem_destaques = [
         slidesToShow: 5.5,
         slidesToScroll: 5
     });
+
+    $(document).ready(function(){
+        $('.slick-arrow').hide()
+    })
 </script>
 
 <?php
