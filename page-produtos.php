@@ -44,7 +44,6 @@ if (!is_null($filtro_atributo) && $filtro_atributo != 'todos') {
     $consulta_pag['taxonomy'] = 'pa_sexo';
     $consulta_pag['term'] = $filtro_atributo;
 }
-$total_produtos = (int) count($posts->get_posts());
 $retorno_produtos = new WP_Query($consulta_pag);
 ?>
 
@@ -225,8 +224,8 @@ $retorno_produtos = new WP_Query($consulta_pag);
                 atributoValor = '',
                 atributoDaUrl = window.location.search.replace('?', '').split('=')[0];
 
-            params.map(function(index, element) {
-                paramsUrl.push(index.split('='));
+            params.map(function(element, index) {
+                paramsUrl.push(element.split('='));
             });
 
             paramsUrl.map(function(element, index) {
