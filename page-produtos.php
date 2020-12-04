@@ -171,6 +171,7 @@ $retorno_produtos = new WP_Query($consulta_pag);
             });
 
             $('input[name="atributo"]').map(function(index, element) {
+                debugger
                 if (element.value == atributoValor[1]) {
                     $(element).click();
                 }
