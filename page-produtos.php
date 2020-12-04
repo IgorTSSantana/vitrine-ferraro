@@ -44,7 +44,6 @@ if (!is_null($filtro_atributo) && $filtro_atributo != 'todos') {
     $consulta_pag['taxonomy'] = 'pa_sexo';
     $consulta_pag['term'] = $filtro_atributo;
 }
-$total_produtos = (int) count($posts->get_posts());
 $retorno_produtos = new WP_Query($consulta_pag);
 ?>
 
@@ -149,8 +148,8 @@ $retorno_produtos = new WP_Query($consulta_pag);
                 params = window.location.search.replace('?', '').split('&'),
                 atributoValor = '';
 
-            params.map(function(index, element) {
-                paramsUrl.push(index.split('='));
+            params.map(function(element, index) {
+                paramsUrl.push(element.split('='));
             });
 
             paramsUrl.map(function(element, index) {
@@ -161,7 +160,6 @@ $retorno_produtos = new WP_Query($consulta_pag);
                 if (element[0] == 'pag') {
                     pagina = element[1];
                 } else {
-                    console.log(index)
                     if (index == 0) {
                         url += `?${element[0]}=${element[1]}`;
                     } else {
@@ -178,17 +176,17 @@ $retorno_produtos = new WP_Query($consulta_pag);
         }
 
         if (postQtd > 1) {
-            let regex = new RegExp("/?pag=[0-9]");
+            let regex = new RegExp("/pag=[0-9]");
             let pagination = `
             <nav aria-label="Page navigation example">
             <ul class="pagination">`;
 
             if (pagina > 1) {
                 let paginaAnterior = pagina - 1;
-                if (!regex.test(window.location.search && window.location.search)) {
-                     pagination += `<li class="page-item"><a class="page-link" href="${url}&pag=${paginaAnterior}">Previous</a></li>`;
+                if (!regex.test(window.location.search) && window.location.search) {
+                     pagination += `<li class="page-item"><a class="page-link" href="${url}&pag=${paginaAnterior}"><</a></li>`;
                 } else {
-                    pagination += `<li class="page-item"><a class="page-link" href="${url}?pag=${paginaAnterior}">Previous</a></li>`;
+                    pagination += `<li class="page-item"><a class="page-link" href="${url}?pag=${paginaAnterior}"><</a></li>`;
                 }
             }
 
@@ -202,11 +200,11 @@ $retorno_produtos = new WP_Query($consulta_pag);
 
             if (pagina < postQtd) {
                 let paginaPosterior = parseInt(pagina) + 1;
-
                 if (!regex.test(window.location.search) && window.location.search) {
-                    pagination += `<li class="page-item"><a class="page-link" href="${url}&pag=${paginaPosterior}">Next</a></li>`;
+
+                    pagination += `<li class="page-item"><a class="page-link" href="${url}&pag=${paginaPosterior}">></a></li>`;
                 } else {
-                    pagination += `<li class="page-item"><a class="page-link" href="${url}?pag=${paginaPosterior}">Next</a></li>`;
+                    pagination += `<li class="page-item"><a class="page-link" href="${url}?pag=${paginaPosterior}">></a></li>`;
                 }
             }
 
@@ -225,8 +223,8 @@ $retorno_produtos = new WP_Query($consulta_pag);
                 atributoValor = '',
                 atributoDaUrl = window.location.search.replace('?', '').split('=')[0];
 
-            params.map(function(index, element) {
-                paramsUrl.push(index.split('='));
+            params.map(function(element, index) {
+                paramsUrl.push(element.split('='));
             });
 
             paramsUrl.map(function(element, index) {
