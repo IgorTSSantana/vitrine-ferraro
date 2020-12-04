@@ -70,7 +70,7 @@ $retorno_produtos = new WP_Query($consulta_pag);
                 <input type="radio" id="sexo_todos" name="atributo" value="todos" checked>
                 <label for="sexo_todos">Todos</label>
             </div>
-            <button class="btn btn-primary" type="button" id="botao-filtrar">
+            <button class="btn btn-danger btn-block" type="button" id="botao-filtrar">
                 Aplicar
             </button>
         </div>
@@ -187,9 +187,9 @@ $retorno_produtos = new WP_Query($consulta_pag);
             if (pagina > 1) {
                 let paginaAnterior = pagina - 1;
                 if (!regex.test(window.location.search && window.location.search)) {
-                     pagination += `<li class="page-item"><a class="page-link" href="${url}&pag=${paginaAnterior}">Previous</a></li>`;
+                     pagination += `<li class="page-item"><a class="page-link" href="${url}&pag=${paginaAnterior}">&laquo;</a></li>`;
                 } else {
-                    pagination += `<li class="page-item"><a class="page-link" href="${url}?pag=${paginaAnterior}">Previous</a></li>`;
+                    pagination += `<li class="page-item"><a class="page-link" href="${url}?pag=${paginaAnterior}">&laquo;</a></li>`;
                 }
             }
 
@@ -205,9 +205,9 @@ $retorno_produtos = new WP_Query($consulta_pag);
                 let paginaPosterior = parseInt(pagina) + 1;
 
                 if (!regex.test(window.location.search) && window.location.search) {
-                    pagination += `<li class="page-item"><a class="page-link" href="${url}&pag=${paginaPosterior}">Next</a></li>`;
+                    pagination += `<li class="page-item"><a class="page-link" href="${url}&pag=${paginaPosterior}">&raquo;</a></li>`;
                 } else {
-                    pagination += `<li class="page-item"><a class="page-link" href="${url}?pag=${paginaPosterior}">Next</a></li>`;
+                    pagination += `<li class="page-item"><a class="page-link" href="${url}?pag=${paginaPosterior}">&raquo;</a></li>`;
                 }
             }
 

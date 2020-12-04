@@ -29,7 +29,7 @@ get_header();
         </p>
         <h3 class="margem-top">Missão</h3>
         <ul class="lista">
-            <li class="fonte-texto">Vender óculos em geral de ótima qualidade e com um preço bom para todos os níveis sociais.</li></br>
+            <li class="fonte-texto">Vender óculos em geral de ótima qualidade e com um preço bom para todas as classes sociais.</li></br>
         </ul>
     </article>
     <article class="col-lg-6 margem">
